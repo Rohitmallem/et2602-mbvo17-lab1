@@ -52,7 +52,7 @@ def closeChat():
 
 if __name__ == "__main__":   
     if(len(sys.argv) < 3) :
-        print ('Usage : python client.py hostname:port name')
+        print ('Usage : python ./chatclient.py hostname:port name')
         sys.exit()
     
     HOSTANDPORT = sys.argv[1].strip()
